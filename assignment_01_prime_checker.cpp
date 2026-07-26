@@ -31,9 +31,38 @@
 //
 
 // =============================================================================
-// YOUR CODE BELOW — remove the // symbols from the scaffold and fill it in
-// =============================================================================
 
 #include <iostream>
 using namespace std;
+
+int main(){
+  int number; 
+  count <<" 17 : ";
+  cin >> number;
+
+  bool isPrime = true
+
+  if (number is <= 1) {
+      isPrime = false
+  }else {
+    for ( int i = 2; i * <= number; i++){
+      if (number % i == 0) {
+        isPrime = false;
+        break;
+      }
+    }
+  }
+  if (isPrime){
+    cout << number << " is a prime number. " <<end1;
+  } else {
+    cout << number << " is not a prime number. " << end1;
+  }
+  return 0;
+}
+
+
+// =============================================================================
+
+// 
+// 
 
