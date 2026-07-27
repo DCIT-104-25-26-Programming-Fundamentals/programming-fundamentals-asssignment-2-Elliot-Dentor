@@ -37,7 +37,7 @@ using namespace std;
 
 int main(){
   int number; 
-  count <<" 17 : ";
+  count <<" number : ";
   cin >> number;
 
   bool isPrime = true
